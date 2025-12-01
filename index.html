@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luzuri — Crema 3 en 1 para rizos</title>
+  <meta name="description" content="Luzuri — Crema 3 en 1 para peinar cabello rizado. Ingredientes naturales: nopal, sábila, aguacate y cacao. Hecho en Ecuador." />
+  <link rel="icon" href="/mnt/data/9139081c-bb02-48bb-8935-95f2e050c99c.png" />
+  <style>
+    /* Fuentes */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700&display=swap');
+
+    :root{--bg:#FBFBFA;--card:#FFFFFF;--muted:#6b6b6b;--accent:#6B8E23;--accent-2:#8B5E3C}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#fff 0%,#fbfbf8 100%);color:#0b0b0b}
+    .wrap{max-width:1200px;margin:0 auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{height:64px}
+    .brand h1{font-family:'Playfair Display',serif;margin:0;font-size:22px}
+    .slogan{color:var(--muted);font-size:13px}
+
+    nav{display:flex;gap:16px}
+    nav a{color:#222;text-decoration:none;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:28px 0}
+    .hero .eyebrow{color:var(--accent-2);font-weight:700;letter-spacing:1px}
+    .hero h2{font-family:'Playfair Display',serif;font-size:36px;margin:8px 0}
+    .lead{color:var(--muted);line-height:1.5}
+    .cta{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:12px;font-weight:700;text-decoration:none}
+
+    .product-card{background:var(--card);padding:22px;border-radius:14px;box-shadow:0 6px 30px rgba(11,11,11,0.06)}
+    .product-card img{width:100%;max-width:260px;border-radius:12px;display:block;margin:0 auto}
+    .price{font-size:20px;font-weight:700;margin-top:12px}
+
+    section{margin-top:28px}
+    h3{font-family:'Playfair Display',serif}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(7,7,7,0.04)}
+    .muted{color:var(--muted)}
+
+    .ingredients li,.benefits li{margin-bottom:8px}
+
+    .howto{display:flex;gap:18px;align-items:flex-start}
+    .howto img{max-width:260px;border-radius:12px}
+
+    .testimonials{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .testimonial{padding:14px;border-radius:10px;background:linear-gradient(180deg,rgba(107,142,35,0.06),transparent)}
+
+    footer{margin-top:36px;padding:22px 0;border-top:1px solid #eee;display:flex;justify-content:space-between;align-items:center}
+
+    /* Responsive */
+    @media (max-width:960px){
+      .hero{grid-template-columns:1fr}
+      .grid-3{grid-template-columns:1fr}
+      .testimonials{grid-template-columns:1fr}
+      .howto{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <img src="/mnt/data/9139081c-bb02-48bb-8935-95f2e050c99c.png" alt="Luzuri logo" />
+        <div>
+          <h1>Luzuri</h1>
+          <div class="slogan">Hecho a tu manera</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#producto">Producto</a>
+        <a href="#ingredientes">Ingredientes</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#como-usar">Cómo usar</a>
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div>
+          <div class="eyebrow">Crema 3 en 1 • Peinar · Definir · Nutrir</div>
+          <h2>Luzuri — Cuidado auténtico para tus rizos</h2>
+          <p class="lead">Crema natural para peinar cabello rizado y ondulado. Formulada con ingredientes locales como nopal, sábila, aguacate y cacao para ofrecer hidratación, definición y control del frizz en una sola aplicación.</p>
+          <p style="margin-top:14px"><a class="cta" href="#producto">Ver producto</a></p>
+        </div>
+
+        <aside class="product-card">
+          <img src="/mnt/data/61ca9714-3d28-46fc-aab2-3eb9273902bb.png" alt="Crema Luzuri" />
+          <div style="text-align:center;margin-top:10px">
+            <div style="font-weight:700;font-size:18px">Crema 3 en 1 Luzuri — 250 ml</div>
+            <div class="price">$9.99</div>
+            <p class="muted" style="margin-top:8px">Disponible para envío nacional • Producto natural</p>
+            <p style="margin-top:12px"><a class="cta" href="mailto:tu@correo.com?subject=Solicitud%20de%20compra%20Luzuri">Pedir por correo</a></p>
+            <p style="margin-top:8px;font-size:13px" class="muted">O <a href="https://wa.me/593999999999?text=Hola%20Luzuri%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20crema" target="_blank">escríbenos por WhatsApp</a></p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="producto">
+        <h3>Nuestra Crema 3 en 1</h3>
+        <p class="muted">Una crema multifuncional desarrollada para simplificar tu rutina: peinar, definir y nutrir. Ideal para rizos desde tipo 2B hasta 4C.</p>
+
+        <div class="grid-3" style="margin-top:12px">
+          <div class="card">
+            <h4>Presentación</h4>
+            <p class="muted">Envase: 250 ml • Tamaño práctico para uso diario y viajes • Textura cremosa y de rápida absorción.</p>
+          </div>
+          <div class="card">
+            <h4>Formato</h4>
+            <p class="muted">Fácil de aplicar, no deja residuo grasoso. Aroma natural con notas suaves a cacao y sábila.</p>
+          </div>
+          <div class="card">
+            <h4>Resultados</h4>
+            <p class="muted">Rizos hidratados, definidos, con movimiento y sin frizz — desde la primera aplicación.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="ingredientes">
+        <h3>Ingredientes clave</h3>
+        <p class="muted">Seleccionamos ingredientes naturales por su eficacia y conexión con la biodiversidad local.</p>
+        <ul class="ingredients muted" style="padding-left:18px">
+          <li><strong>Nopal:</strong> Rico en vitaminas y minerales; hidrata y fortalece la fibra capilar.</li>
+          <li><strong>Sábila (aloe vera):</strong> Calmante, reparador y humectante.</li>
+          <li><strong>Aguacate:</strong> Fuente de ácidos grasos que nutren y aportan brillo.</li>
+          <li><strong>Cacao:</strong> Aporta antioxidantes y un aroma natural y suave.</li>
+        </ul>
+      </section>
+
+      <section id="beneficios">
+        <h3>Beneficios principales</h3>
+        <ul class="benefits muted" style="padding-left:18px">
+          <li>Hidratación profunda sin apelmazar.</li>
+          <li>Definición natural y elasticidad en el rizo.</li>
+          <li>Control del frizz en climas húmedos.</li>
+          <li>Fácil peinado y menos quiebre al desenredar.</li>
+          <li>Fórmula libre de sulfatos y parabenos.</li>
+        </ul>
+      </section>
+
+      <section id="como-usar">
+        <h3>Cómo usar</h3>
+        <div class="howto">
+          <div style="flex:1">
+            <ol class="muted" style="padding-left:18px">
+              <li>Lava y acondiciona como de costumbre.</li>
+              <li>Aplica una cantidad del tamaño de una nuez sobre cabello húmedo (ajusta según largo).</li>
+              <li>Distribuye de medios a puntas y desenreda con los dedos o peine de dientes anchos.</li>
+              <li>Define con scrunching y deja secar al aire o usa difusor a baja temperatura.</li>
+              <li>Reaplica una pequeña cantidad en seco para refrescar rizos al día siguiente.</li>
+            </ol>
+          </div>
+          <img src="/mnt/data/61ca9714-3d28-46fc-aab2-3eb9273902bb.png" alt="Cómo usar Luzuri" />
+        </div>
+      </section>
+
+      <section id="testimonios">
+        <h3>Testimonios</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <strong>María G. — Quito</strong>
+            <p class="muted">“Mis rizos se ven más vivos y con menos frizz. Me encanta que sea natural y que huela delicioso.”</p>
+          </div>
+          <div class="testimonial">
+            <strong>Carlos R. — Guayaquil</strong>
+            <p class="muted">“Finalmente una crema que define sin dejar el cabello duro. Recomendado.”</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="nosotros">
+        <h3>Sobre Luzuri</h3>
+        <p class="muted">Luzuri combina la palabra <em>lux</em> (luz) con <em>rizuri</em> (inspirado en rizo + sufijo quechua <em>uri</em>). Nuestra marca representa vitalidad, autenticidad y respeto por la biodiversidad de nuestra tierra. Creemos en el poder de los ingredientes locales y en fórmulas responsables con la piel y el planeta.</p>
+
+        <h4>Filosofía</h4>
+        <p class="muted"><strong>Misión:</strong> Crear productos naturales especializados para el cabello rizado y ondulado que faciliten el cuidado diario y promuevan la confianza en la propia imagen.</p>
+        <p class="muted"><strong>Visión:</strong> Ser reconocidos por la calidad y autenticidad de nuestros productos, representando con orgullo la identidad ecuatoriana.</p>
+      </section>
+
+      <section id="analisis">
+        <h3>Análisis de mercado y estrategia</h3>
+        <p class="muted">Nuestro público objetivo busca soluciones naturales y multifuncionales. Frente a marcas comerciales, Luzuri apuesta por una fórmula 3 en 1 que combina eficacia, accesibilidad y respeto al medio ambiente.</p>
+        <p class="muted">Estrategias: campañas en Instagram y TikTok, ads segmentados, y descuentos por recomendaciones entre clientes.</p>
+      </section>
+
+      <section id="contacto">
+        <h3>Contacto</h3>
+        <p class="muted">¿Quieres vender Luzuri en tu tienda, comprar al por mayor o probar una muestra? Escríbenos:</p>
+        <p><strong>Email:</strong> <a href="mailto:ventas@luzuri.ec">ventas@luzuri.ec</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/593999999999?text=Hola%20Luzuri%2C%20quiero%20informaci%C3%B3n" target="_blank">+593 9 9999 9999</a></p>
+        <p><strong>Redes:</strong> <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a> • <a href="https://tiktok.com/@yourhandle" target="_blank">TikTok</a></p>
+
+        <div style="margin-top:12px;background:linear-gradient(180deg,rgba(139,94,60,0.06),transparent);padding:12px;border-radius:8px">
+          <strong>Distribuidores y ventas al por mayor:</strong>
+          <p class="muted">Escríbenos al correo o por WhatsApp y te enviaremos información de precios y condiciones.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>© Luzuri • Hecho en Ecuador</div>
+      <div class="muted">Diseño y formulación con ingredientes naturales • <em>Autenticidad, calidez y confianza</em></div>
+    </footer>
+  </div>
+
+  <script>
+    // Pequeña mejora: reemplazar número WhatsApp por el real si quieres
+    // También podrías integrar Google Analytics o Pixel aquí si lo deseas.
+  </script>
+</body>
+</html>
